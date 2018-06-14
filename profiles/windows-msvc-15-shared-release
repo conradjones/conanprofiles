@@ -8,6 +8,5 @@ compiler.version=15
 compiler.runtime=MD
 build_type=Release
 [options]
-shared=true
 [build_requires]
 [env]

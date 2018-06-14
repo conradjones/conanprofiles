@@ -8,6 +8,5 @@ compiler.version=15
 compiler.runtime=MDd
 build_type=Debug
 [options]
-shared=true
 [build_requires]
 [env]
