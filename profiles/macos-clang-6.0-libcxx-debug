@@ -10,3 +10,4 @@ build_type=Debug
 [options]
 [build_requires]
 [env]
+LIBRARY_PATH=/usr/local/opt/llvm/lib
