@@ -1,0 +1,14 @@
+[settings]
+os=Windows
+os_build=Windows
+arch=x86_64
+arch_build=x86_64
+compiler=clang
+compiler.version=8
+compiler.libcxx=libc++
+build_type=Debug
+[options]
+[build_requires]
+[env]
+CXX='clang-cl.exe'
+CC='clang.exe'
