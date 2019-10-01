@@ -14,7 +14,7 @@ CC=/usr/local/opt/llvm/bin/clang
 CXX=/usr/local/opt/llvm/bin/clang++
 LIBRARY_PATH=/usr/local/opt/llvm/lib
 CXXFLAGS="-stdlib=libc++ -I/usr/local/opt/llvm/include -I/usr/local/opt/llvm/include/c++/v1 -isysroot/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
-CFLAGS="-I/usr/local/opt/llvm/include -I/usr/local/opt/llvm/include/c++/v1 -isysroot/Library/Developer/CommandLineTools/SDKs$
+CFLAGS="-I/usr/local/opt/llvm/include -I/usr/local/opt/llvm/include/c++/v1 -isysroot/Library/Developer/CommandLineTools/SDKs"
 LDFLAGS="-stdlib=libc++ -L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib"
 
 
