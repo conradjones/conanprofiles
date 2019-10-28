@@ -11,6 +11,6 @@ build_type=Debug
 [build_requires]
 [env]
 CPPFLAGS=-fno-omit-frame-pointer -fsanitize=address,undefined -fno-sanitize=function,vptr
-CXXFLAGS=-fsanitize=address,undefined -fno-omit-frame-pointer
-CFLAGS=-fsanitize=address,undefined -fno-omit-frame-pointer
+CXXFLAGS=-fsanitize=address,undefined -fno-sanitize=function,vptr -fno-omit-frame-pointer
+CFLAGS=-fsanitize=address,undefined -fno-sanitize=function,vptr -fno-omit-frame-pointer
 LDLAGS=-fsanitize=address,undefined -fno-omit-frame-pointer
