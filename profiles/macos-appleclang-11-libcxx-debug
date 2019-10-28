@@ -10,6 +10,7 @@ build_type=Debug
 [options]
 [build_requires]
 [env]
-CXXFLAGS="-fsanitize=address -fsanitize=undefined -fno-omit-frame-pointer"
-CFLAGS="-fsanitize=address -fsanitize=undefined -fno-omit-frame-pointer"
-LDLAGS="-fsanitize=address -fsanitize=undefined -fno-omit-frame-pointer"
+CPPFLAGS=-fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined
+CXXFLAGS=-fsanitize=address -fsanitize=undefined -fno-omit-frame-pointer
+CFLAGS=-fsanitize=address -fsanitize=undefined -fno-omit-frame-pointer
+LDLAGS=-fsanitize=address -fsanitize=undefined -fno-omit-frame-pointer
