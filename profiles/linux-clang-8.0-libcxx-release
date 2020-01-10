@@ -12,3 +12,5 @@ build_type=Release
 [env]
 CC=/usr/local/bin/cache-cc.sh
 CXX=/usr/local/bin/cache-cxx.sh
+CXXFLAGS=-stdlib=libc++
+LDFLAGS=-stdlib=libc++
