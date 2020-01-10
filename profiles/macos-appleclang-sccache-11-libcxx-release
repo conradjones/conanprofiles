@@ -10,5 +10,5 @@ build_type=Release
 [options]
 [build_requires]
 [env]
-CC=cache-cc
-CXX=cache-cxx
+CC=/usr/local/bin/cache-cc.sh
+CXX=/usr/local/bin/cache-cxx.sh
