@@ -10,5 +10,5 @@ build_type=Release
 [options]
 [build_requires]
 [env]
-CXX=sccache.exe clang-cl.exe
-CC=sccache.exe clang-cl.exe
+CXX=cache-cl.cmd
+CC=cache-cl.cmd
