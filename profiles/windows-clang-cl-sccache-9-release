@@ -10,6 +10,6 @@ build_type=Release
 [options]
 [build_requires]
 [env]
-CXX=cache-cl.cmd
-CC=cache-cl.cmd
+CXX=clang-cl.exe
+CC=clang-cl.exe
 SCCACHE_BUCKET=sccachewin32
